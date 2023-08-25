@@ -1,8 +1,11 @@
 const addingHtmlElementsJs=()=>
 {
     let root = document.getElementsByClassName("root")[0];
-let h1 = document.createElement("h1");
-h1.textContent ="hello world"
-root.appendChild(h1);
+    let nav = document.createElement("nav");
+    let li1 = document.createElement("li");
+    let an = document.createElement("a");
+    li1.textContent ="home";
+    nav.appendChild(li1);
+    root.appendChild(nav);
 }
 addingHtmlElementsJs();
