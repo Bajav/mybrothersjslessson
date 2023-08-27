@@ -2,7 +2,26 @@ body
 {
     margin: 0;
     padding: 0;
+}
+.root{
+    background-image: url(../bg.JPG);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background: #000000e8;
+    height: 100vh;
+    width: 100vw;
+}
+.root h2
+{
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    position: fixed;
+    top:50%;
+    color: #130e0e;
+    left:20%;
 }
 header
 {
